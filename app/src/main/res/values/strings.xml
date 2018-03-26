@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">E_Restaurant</string>
+    <string name="hint_uname">Staff ID</string>
+    <string name="hint_password">Password</string>
+    <string name="customer_welcome">Welcome, customer!</string>
+
+    <string-array name="roles">
+        <item>Waiter</item>
+        <item>Chef</item>
+        <item>Manager</item>
+    </string-array>
+</resources>

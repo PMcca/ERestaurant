@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.se.pete.e_restaurant">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".atvStaffLogin"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".atvCustomerMain" />
+        <activity android:name=".atvOrderMake" />
+        <activity
+            android:name=".atvOrderConfirm"
+            android:parentActivityName=".atvOrderMake" />
+        <activity android:name=".atvCustomerViewBill" />
+        <activity android:name=".atvPayBill" />
+        <activity android:name=".atvCustomerViewOrder" />
+        <activity android:name=".atvStaffMain" />
+        <activity android:name=".atvStaffViewOrders" />
+        <activity android:name=".atvStaffViewBills" />
+        <activity android:name=".atvStaffGetNextOrder" />
+        <activity android:name=".atvStaffAddStaff" />
+        <activity android:name=".atvStaffRemoveStaff" />
+        <activity android:name=".atvStaffEditMenu" />
+        <activity android:name=".atvStaffAddItem"></activity>
+    </application>
+
+</manifest>
